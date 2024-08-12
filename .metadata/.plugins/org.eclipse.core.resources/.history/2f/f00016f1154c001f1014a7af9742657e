@@ -1,0 +1,10 @@
+package threejava;
+
+public class print_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

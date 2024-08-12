@@ -1,0 +1,57 @@
+
+
+package deno;
+
+public class armstrong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		     Scanner scanner = new Scanner(System.in);
+				
+				               
+				System.out.println("Enter a number");
+		        int number = sc.nextint();
+		        
+		        if (isArmstrong(number)) {
+		        	System.out.println(number + "is an Armstrong number");
+		        } else {
+		        	System.out.println(number + "is not an Armstrong number");
+		        }
+		        
+		        scanner.close();
+	}
+	          public static boolean isArmstrong(int number) {
+	        	  int originalnumber = number;
+	        	  int sum = 0;
+	        	  int numberofDigits = String.valueOf(number).length();
+	        	  
+	        	  while (number != 0) {
+	        		  int digit = number% 10;
+	        		  sum += Math.pow(digit, numberofDigits);
+	        		  number /= 10;
+	        		  
+	        	  }
+	        	  
+	        	  
+	        	  return sum == originalnumber;
+	        	  
+	          }
+}
+
+
+
+
+
+	        		  
+		        
+		        
+		        
+	}
+	
+		    
+		        
+		
+	}
+
+}

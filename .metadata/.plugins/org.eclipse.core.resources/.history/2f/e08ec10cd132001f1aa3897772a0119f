@@ -1,0 +1,11 @@
+package javaprogram;
+
+public class simple {
+
+	public static void main(String[] args) {
+		System.out.println("hello java");
+		System.out.printin("first java");
+
+	}
+
+}
