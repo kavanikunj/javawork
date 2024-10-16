@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-13T06:36:24Z" name="Default suite" finished-at="2024-10-13T06:36:24Z" duration-ms="76">
+    <groups>
+      <group name="profile">
+        <method signature="grouptest.testUpdateProfile()[pri:0, instance:testng.grouptest@d41f816]" name="testUpdateProfile" class="testng.grouptest"/>
+        <method signature="grouptest.testViewProfile()[pri:0, instance:testng.grouptest@d41f816]" name="testViewProfile" class="testng.grouptest"/>
+      </group> <!-- profile -->
+      <group name="sanity">
+        <method signature="grouptest.testInvalidLogin()[pri:0, instance:testng.grouptest@d41f816]" name="testInvalidLogin" class="testng.grouptest"/>
+        <method signature="grouptest.testViewProfile()[pri:0, instance:testng.grouptest@d41f816]" name="testViewProfile" class="testng.grouptest"/>
+      </group> <!-- sanity -->
+      <group name="login">
+        <method signature="grouptest.testInvalidLogin()[pri:0, instance:testng.grouptest@d41f816]" name="testInvalidLogin" class="testng.grouptest"/>
+        <method signature="grouptest.testValidLogin()[pri:0, instance:testng.grouptest@d41f816]" name="testValidLogin" class="testng.grouptest"/>
+      </group> <!-- login -->
+      <group name="dashboard">
+        <method signature="grouptest.testAccessDashboard()[pri:0, instance:testng.grouptest@d41f816]" name="testAccessDashboard" class="testng.grouptest"/>
+      </group> <!-- dashboard -->
+    </groups>
+    <test started-at="2024-10-13T06:36:24Z" name="Default test" finished-at="2024-10-13T06:36:24Z" duration-ms="76">
+      <class name="testng.grouptest">
+        <test-method signature="testAccessDashboard()[pri:0, instance:testng.grouptest@d41f816]" started-at="2024-10-13T12:06:24Z" name="testAccessDashboard" finished-at="2024-10-13T12:06:24Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccessDashboard -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:testng.grouptest@d41f816]" started-at="2024-10-13T12:06:24Z" name="testInvalidLogin" finished-at="2024-10-13T12:06:24Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method signature="testUpdateProfile()[pri:0, instance:testng.grouptest@d41f816]" started-at="2024-10-13T12:06:24Z" name="testUpdateProfile" finished-at="2024-10-13T12:06:24Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateProfile -->
+        <test-method signature="testValidLogin()[pri:0, instance:testng.grouptest@d41f816]" started-at="2024-10-13T12:06:24Z" name="testValidLogin" finished-at="2024-10-13T12:06:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method signature="testViewProfile()[pri:0, instance:testng.grouptest@d41f816]" started-at="2024-10-13T12:06:24Z" name="testViewProfile" finished-at="2024-10-13T12:06:24Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewProfile -->
+      </class> <!-- testng.grouptest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

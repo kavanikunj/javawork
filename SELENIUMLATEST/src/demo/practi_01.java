@@ -17,7 +17,7 @@ public class practi_01 {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407/");
+		driver.get("https://fs2.formsite.com/meherpavan/form2/index.html");
 		
 		driver.manage().window().maximize();
 		

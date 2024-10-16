@@ -54,21 +54,6 @@ public class PRACTICE_00 {
 			System.out.println();
 		}
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
